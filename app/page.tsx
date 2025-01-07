@@ -156,7 +156,7 @@ export default function Home() {
       {/* Search Bar */}
       <div className="w-full z-20 mb-3 flex justify-center absolute top-6">
         <div className="flex flex-col w-lg max-w-lg">
-          <div className="flex items-center bg-transparent text-white font-bold bg-opacity-60 rounded-full border-white border-2 px-4 py-2">
+          <div className="flex items-center bg-transparent text-white font-bold bg-opacity-60  rounded-full border-white border-2 px-4 py-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -226,8 +226,10 @@ export default function Home() {
       </div>
 
       {/* Upcoming Movies Section */}
-      <div className="relative z-10 px-6 md:px-12 lg:px-4 text-white">
-        <h2 className="text-xl md:text-xl font-bold m-2">Upcoming Movies</h2>
+      <div className="relative z-10 px-6 md:px-12 lg:px-4 text-white ">
+        <h2 className="text-xl md:text-xl font-bold m-2 mt-4">
+          Upcoming Movies
+        </h2>
         <div className="relative h-8 bg-black">
           <div
             className="relative w-full overflow-hidden no-scrollbar p-5"
